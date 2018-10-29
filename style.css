@@ -1,0 +1,257 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/************START SKÆRM*******************/
+
+#start {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: none;
+}
+
+#play_knap {
+    position: absolute;
+    width: 17vw;
+    top: 16vw;
+    left: 40vw;
+    z-index: 1;
+    display: none;
+}
+
+#setting_knap {
+    position: absolute;
+    width: 7vw;
+    left: 92.5vw;
+    top: 1vw;
+}
+
+/**************BAGGRUND****************/
+
+#game_background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+/********************SETTINGS*******************/
+
+#settings {
+    position: absolute;
+    top: 2vw;
+    left: 10vw;
+    width: 85vw;
+    z-index: 1;
+    display: none;
+}
+
+#on {
+    position: absolute;
+    width: 30vw;
+    top: 18vw;
+    left: 50vw;
+    z-index: 2;
+    display: none;
+
+}
+
+#off {
+    position: absolute;
+    width: 16vw;
+    top: 27vw;
+    left: 65vw;
+    z-index: 2;
+    display: none;
+
+}
+
+#tilbage {
+    position: absolute;
+    width: 13vw;
+    top: 34vw;
+    left: 47vw;
+    z-index: 2;
+    display: none;
+}
+
+
+/******************INTRO SKÆRM**********************/
+
+#game_foreground_intro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: none;
+
+
+}
+
+#intro_tekst {
+    position: absolute;
+    width: 60vw;
+    top: 0.5vw;
+    left: 30vw;
+    transform: rotate(8deg);
+    display: none;
+}
+
+/*******************SPIL SKÆRM*********************/
+
+#game_foreground_spil {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+#bla_kolbe {
+    position: absolute;
+    width: 8vw;
+    top: 11vw;
+    left: 56.8vw;
+}
+
+#lilla_kolbe {
+    position: absolute;
+    width: 7vw;
+    top: 29vw;
+    left: 80.5vw;
+}
+
+#lime_kolbe {
+    position: absolute;
+    width: 3vw;
+    top: 19vw;
+    left: 65.8vw;
+}
+
+#pink_kolbe {
+    position: absolute;
+    width: 5vw;
+    top: 19vw;
+    left: 74.4vw;
+}
+
+#groen_kolbe {
+    position: absolute;
+    width: 6.5vw;
+    top: 31.3vw;
+    left: 66.7vw;
+}
+
+#gul_kolbe {
+    position: absolute;
+    width: 7.5vw;
+    top: 26vw;
+    left: 56.6vw;
+}
+
+#orange_kolbe {
+    position: absolute;
+    width: 8vw;
+    top: 12vw;
+    left: 79.9vw;
+}
+
+#roed_kolbe {
+    position: absolute;
+    width: 5vw;
+    top: 12vw;
+    left: 70.3vw;
+}
+
+#bombe {
+    position: absolute;
+    width: 9vw;
+    top: 43.5vw;
+    left: 35vw;
+}
+
+#points {
+    position: absolute;
+    width: 10vw;
+    top: 43.5vw;
+    left: 81vw;
+}
+
+#energi {
+    position: absolute;
+    width: 36vw;
+    top: 47.5vw;
+    left: 45vw;
+}
+
+#time {
+    position: absolute;
+    width: 14vw;
+    left: 0.5vw;
+    top: 1vw;
+}
+
+/*********************GAME OVER*********************/
+
+#game_foreground_gameover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: none;
+
+}
+
+#gameover {
+    position: absolute;
+    width: 62vw;
+    top: 5vw;
+    left: 38vw;
+    transform: rotate(2deg);
+    display: none;
+}
+
+#try_again {
+    position: absolute;
+    width: 9vw;
+    top: 22vw;
+    left: 45vw;
+    z-index: 10;
+
+}
+
+/*************LEVEL UP***************/
+
+#levelcomplete {
+    position: absolute;
+    width: 65vw;
+    top: 5vw;
+    left: 34vw;
+    transform: rotate(2deg);
+    display: none;
+
+}
+
+#try_again2 {
+    position: absolute;
+    width: 9vw;
+    top: 21vw;
+    left: 48vw;
+    display: none;
+
+}
